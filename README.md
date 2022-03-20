@@ -3,6 +3,8 @@
 약간 병맛인 봇 입니다
 (사실 예전에 깃허브에 올렸던것 입니다)
 
+기능 추가 문의는 Issues에ㄱㄱ
+
 # 봇초대
 
 https://discord.com/api/oauth2/authorize?client_id=762555782034096128&permissions=0&scope=bot
@@ -13,8 +15,7 @@ https://discord.com/api/oauth2/authorize?client_id=762555782034096128&permission
 
 **개발자 전용**
 
-```
-pip install -r .\requirements.txt
+```pip3 install -r .\requirements.txt
 ```
 
 ```
