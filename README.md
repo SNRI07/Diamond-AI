@@ -15,7 +15,8 @@ https://discord.com/api/oauth2/authorize?client_id=762555782034096128&permission
 
 **개발자 전용**
 
-```pip3 install -r .\requirements.txt
+```
+pip3 install -r .\requirements.txt
 ```
 
 ```
