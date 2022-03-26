@@ -1,6 +1,6 @@
 import discord
 import time
-
+import random
 
 class chatbot(discord.Client):
     async def on_ready(self):
@@ -56,6 +56,13 @@ class chatbot(discord.Client):
         if message.content == "~비트박스":
             channel = message.channel
             msg = "연습 중인 비트박스에요. 북치기 박치기 북치기 박치기 박치기 북치기 박치기 북치기 "
+            await channel.send(msg)
+            return None
+        
+        if message.content == "~랜덤":
+            channel = message.channel
+            r = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+            msg = random.choice(r)
             await channel.send(msg)
             return None
 
